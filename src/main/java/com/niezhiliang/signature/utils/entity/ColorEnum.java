@@ -1,4 +1,4 @@
-package com.niezhiliang.signature.utils.constant;
+package com.niezhiliang.signature.utils.entity;
 
 import java.awt.*;
 

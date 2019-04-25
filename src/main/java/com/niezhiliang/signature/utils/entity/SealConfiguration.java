@@ -1,4 +1,4 @@
-package com.niezhiliang.signature.utils;
+package com.niezhiliang.signature.utils.entity;
 
 import java.awt.*;
 
@@ -44,6 +44,19 @@ public class SealConfiguration {
      * 图片输出尺寸，默认300
      */
     private Integer imageSize = 300;
+
+    /**
+     * 字体类型
+     */
+    private String fontFamilyTag;
+
+    public String getFontFamilyTag() {
+        return fontFamilyTag;
+    }
+
+    public void setFontFamilyTag(String fontFamilyTag) {
+        this.fontFamilyTag = fontFamilyTag;
+    }
 
     public SealConfiguration setMainFont(SealFont mainFont) {
         this.mainFont = mainFont;

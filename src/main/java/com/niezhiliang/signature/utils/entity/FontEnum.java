@@ -1,4 +1,4 @@
-package com.niezhiliang.signature.utils.constant;
+package com.niezhiliang.signature.utils.entity;
 
 
 /**
@@ -8,11 +8,11 @@ package com.niezhiliang.signature.utils.constant;
  */
 public enum  FontEnum {
 
-    SONGTI("宋体"),
+    SONGTI("SimSun"),
 
-    FANGZHENGHEITI("方正黑体"),
+    FANGZHENGHEITI("SimHei"),
 
-    KAITI("楷体");
+    KAITI("KaiTi");
     ;
     private String font;
 
